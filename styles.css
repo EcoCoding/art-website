@@ -1,0 +1,97 @@
+
+html, body, p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifS;
+    background: #EDEDED;
+    margin: 0;
+    text-align:center;
+}
+
+
+h1 {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+h2 {
+    padding-top: 3rem;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    list-style-type: none;
+
+}
+
+.navbar li a {
+    display: block;
+    padding: .5rem 1rem;
+    color: inherit;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.nav-background {
+    background: #DDDDDD;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.23);
+
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    /* padding: 1rem; */
+}
+
+.col {
+    /* padding: 1rem; */
+    /* margin: 1rem;
+    max-width: 32rem;
+    max-height: 40rem;
+    border-radius: 0.5rem;
+    object-fit: contain; */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.contact {
+    background-color: #DDDDDD;
+}
+
+.about {
+    padding: 6rem;
+   text-align: center;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.project-img {
+    max-width: 32rem;
+    max-height: 40rem;
+    border-radius: 0.5rem;
+    object-fit: contain;
+}
+
+.home {
+    color:black;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+
+/* .main {
+    object-fit: contain;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.23);
+} */
